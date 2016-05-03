@@ -14,5 +14,5 @@ Then to build this resource plugin:
 
 To use this resource plugin:
 
-  irods@hostname $ iadmin mkresc archiveResc wos <hostname>:/fakeVaultPath "wos_host=<WOSEndpoint>;wos_policy=<PolicyName>"
+  irods@hostname $ iadmin mkresc archiveResc wos <hostname>:/fakeVaultPath "wos_host=<WOSEndpoint>;wos_policy=<PolicyName>;retry_count=<MaxRetryCount>;connect_timeout=<ConnectTimeout>"
 
